@@ -1,0 +1,12 @@
+GEM
+  specs:
+    hcl-checker (1.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hcl-checker
+
+BUNDLED WITH
+   1.16.2
