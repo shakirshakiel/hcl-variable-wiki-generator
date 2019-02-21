@@ -9,4 +9,5 @@ If you are tired of documenting the input variables for your terraform modules, 
 
 ## Known Issues
 
-- Defaults for map & list are not being deduced
+- Empty list has to have type list specified
+- Empty map has to have type map specified
