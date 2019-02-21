@@ -1,6 +1,6 @@
 require 'hcl/checker'
 
-hcl = File.read("./variables.tf")
+hcl = File.read(ARGV[0])
 parsed = HCL::Checker.parse(hcl)["variable"]
 
 def get_type(str)
